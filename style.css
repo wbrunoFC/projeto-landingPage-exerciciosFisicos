@@ -1,0 +1,18 @@
+body {
+    --font-txt-principal: font-family: "Mulish", sans-serif;
+    --font-color-principal:#000000;
+    --font-color-highlight:#89C5CC;
+    --font-txt-secondary: font-family: "Open Sans", sans-serif;
+    --font-color-secondary: #7D7987;
+    --color-button: #69B99D;
+
+    /* Retirar a margem padrao do navegador */
+    margin: 0px;
+
+    .page {
+        border: 1px solid red;
+        max-width: 1000px;
+        margin: 65px auto 0;
+    }
+    
+}
