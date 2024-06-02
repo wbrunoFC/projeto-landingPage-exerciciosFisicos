@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Treine me</title>
     <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
@@ -16,20 +16,19 @@
 
   <body>
     <div class="page">
-      <header>
-        <img src="./assets/logo.svg" alt="Treine.me" />
-
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Treinar</li>
-          </ul>
-        </nav>
-      </header>
+      <nav>
+        <a href="#">
+          <img src="./assets/logo.svg" alt="Treine.me" />
+        </a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Treinar</a></li>
+        </ul>
+      </nav>
       <main>
         <section class="text">
-          <h1>Treinos exclusivos para você!</h1>
+          <h1>Treinos <strong>exclusivos</strong> para você!</h1>
           <p>
             Nós criamos treinos
             <strong>exclusivos e únicos para você.</strong><br />
@@ -49,6 +48,7 @@
       <footer>fale concosco no instagram <strong>@treine.me</strong></footer>
     </div>
     <img
+      id="balls"
       src="./assets/balls.svg"
       alt="Grupo de bolinhas na parte inferior da tela"
     />
